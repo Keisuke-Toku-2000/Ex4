@@ -1,5 +1,8 @@
 import random
 Head=Tail=0
+print("Who are you?")
+a=input()
+print("Hello "+a)
 print("Tossing a coin 3 round.") 
 for i in range(3):
   rand1 = random.randint(0,1)
