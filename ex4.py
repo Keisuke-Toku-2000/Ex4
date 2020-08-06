@@ -14,6 +14,6 @@ for i in range(3):
     print("Round"+str(i)+":Tail")
 print ("Head:"+str(Head)+"Tail:"+str(Tail))
 if(Head>2):
-  print("you won!")
+  print(a+" won!")
 else: 
-  print("you lost")
+  print(a+" lost")
