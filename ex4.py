@@ -10,4 +10,7 @@ for i in range(3):
     Tail += 1
     print("Round"+str(i)+":Tail")
 print ("Head:"+str(Head)+"Tail:"+str(Tail))
-    
+if(Head>2):
+  print("you won!")
+else: 
+  print("you lost")
